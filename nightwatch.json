@@ -1,0 +1,118 @@
+{
+  "selenium": {
+    "start_process": true,
+    "server_path": "./node_modules/selenium-standalone-jar/bin/selenium-server-standalone-3.0.1.jar",
+    "log_path": "",
+    "port": 4444,
+    "cli_args": {
+      "webdriver.chrome.driver": "./node_modules/chromedriver/bin/chromedriver"
+    }
+  },
+  "globals_path": "./nightwatch/global.js",
+  "detailed_output": true,
+  "request_timeout_options": {
+    "timeout": 30000,
+    "retry_attempts": 5
+  },
+  "src_folders": [
+    "./nightwatch/test"
+  ],
+  "custom_commands_path": "./nightwatch/commands",
+  "test_settings": {
+    "default": {
+      "launch_url": "https://www.assos.com",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "silent": true,
+      "screenshots": {
+        "enabled": false,
+        "path": ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "marionette": false,
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions": {
+        "args": [
+            "start-fullscreen"
+        ]
+        }
+      }
+    },
+    "local_chrome" : {
+      "launch_url" : "http://uat.assos.com",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions": {
+          "args" : ["start-fullscreen"]
+        }
+      }
+    },
+
+    "production" : {
+      "launch_url" : "https://www.assos.com",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions": {
+          "args" : ["start-fullscreen"]
+        }
+      }
+    },
+
+    "beta" : {
+      "launch_url" : "https://beta.assos.com",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions": {
+          "args" : ["start-fullscreen"]
+        }
+      }
+    },
+
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "chromeOptions": {
+          "args": [
+            "start-fullscreen"
+          ]
+        }
+      }
+    },
+    "edge": {
+      "desiredCapabilities": {
+        "browserName": "MicrosoftEdge"
+      }
+    }
+  }
+}

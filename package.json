@@ -1,0 +1,18 @@
+{
+  "name": "assos",
+  "version": "1.0.0",
+  "description": "Kitty Su",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch"
+  },
+  "dependencies": {
+    "chromedriver": "^2.33.2",
+    "geckodriver": "^1.10.0",
+    "nightwatch": "^0.9.16",
+    "selenium-standalone-jar": "^3.0.1"
+  },
+  "devDependencies": {},
+  "author": "Mitesh",
+  "license": "ISC"
+}

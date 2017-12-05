@@ -1,0 +1,23 @@
+19:12:24.828 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+19:12:24.830 INFO - Launching a standalone Selenium Server
+2017-12-01 19:12:25.001:INFO::main: Logging initialized @4056ms
+19:12:25.511 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+19:12:25.511 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+19:12:25.511 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:12:25.511 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+19:12:25.512 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:12:25.512 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-12-01 19:12:26.121:INFO:osjs.Server:main: jetty-9.2.15.v20160210
+2017-12-01 19:12:26.308:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@6cc4c815{/,null,AVAILABLE}
+2017-12-01 19:12:26.710:INFO:osjs.ServerConnector:main: Started ServerConnector@4bde44b5{HTTP/1.1}{0.0.0.0:4444}
+2017-12-01 19:12:26.711:INFO:osjs.Server:main: Started @5765ms
+19:12:26.711 INFO - Selenium Server is up and running
+19:12:28.047 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+19:12:28.247 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=false, name=Category / Check Components, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]])
+19:12:28.513 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=false, name=Category / Check Components, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]
+Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 31466
+Only local connections are allowed.
+19:12:32.815 INFO - Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
