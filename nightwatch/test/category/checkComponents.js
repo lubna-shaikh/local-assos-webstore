@@ -46,45 +46,37 @@ const goToCategoryPage = function (client, menuItem) {
         .waitForElementVisible('.header-main-nav-content')
 }
 
-const addToCart = function (client) {
-    return client
+const sliderContainer = '.item-card .item-block-container:nth-child(1) .item-card-image-block '
+// const addToCart = function (client) {
+//     return client
+//         .getText('.header-mini-cart-menu-cart-legend', function (res) {
+//             var initialCount = Number(res.value);
+//             client
+//                 .click(sliderContainer + '.add-to-cart-btn')
+//                 .pause(3000)
+//                 .click(sliderContainer + '.size-options-drop-down')
+//                 .pause(3000)
+//                 .click(sliderContainer + '.size-options-drop-down option:nth-child(2)')
+//                 .pause(3000)
+//                 .click(sliderContainer + '.add-to-cart-btn-block')
+//                 .pause(5000)
+//                 .verify.containsText('.header-mini-cart-menu-cart-legend', initialCount + 1)
+//         })
+// }
+
+const scrollToSlider = function (client) {
+    client
         .getLocationInView('li:nth-child(1) .item-card')
         .pause(3000)
-        .moveToElement('.item-card .item-block-container:nth-child(1) .item-card-image-block',10,10,function(){
+        .moveToElement('.item-card .item-block-container:nth-child(1) .item-card-image-block', 10, 10, function () {
             console.log("callback");
         })
         .pause(3000)
-        .click('.item-card .item-block-container:nth-child(1) .item-card-image-block .add-to-cart-btn')
-        .pause(3000)
-        .click('.item-card .item-block-container:nth-child(1) .item-card-image-block .size-options-drop-down')
-        .pause(3000)
-        .click('.item-card .item-block-container:nth-child(1) .item-card-image-block .size-options-drop-down option:nth-child(2)')
-        .pause(3000)
-        .click('.item-card .item-block-container:nth-child(1) .item-card-image-block .add-to-cart-btn-block')
-        .pause(3000)
-
-        // .setValue('input[data-type="search-input"]', 'Rally Shorts')
-        // .pause(3000)
-        // .click('img[src="http://eu.dev.assos.com/Webstore Images/rally-shorts_Gold-W.jpg?resizeid=2&resizeh=213&resizew=170"]')
-        //.getLocationInView('.btn-link.allign-right')
-        //.waitForElementVisible('.btn-link.allign-right')
-        //.click('.btn-link.allign-right')
-        //.waitForElementVisible('img[src="http://eu.dev.assos.com/Webstore Images/rally-shorts_Black Volkanga-M.jpg?resizeid=22&resizeh=400&resizew=320"]')
-        //.click('img[src="http://eu.dev.assos.com/Webstore Images/rally-shorts_Black Volkanga-M.jpg?resizeid=22&resizeh=400&resizew=320"]')
-        // .waitForElementVisible('span[title="Blue"]')
-        // .pause(2000)
-        // .click('span[title="Blue"]')
-        // .pause(2000)
-        // .click('#custcol1')
-        // .click('option[value="3"]')
-        // .pause(2000)
-        // .getLocationInView('button[data-type="add-to-cart"]')
-        // .waitForElementVisible('.cart-add-to-cart-button-button')
-        // .click('.cart-add-to-cart-button-button');
 }
 
-const incrementedCartCount = function(client){
-    
+const initialCartCount = function (client) {
+    client
+        .verify.containsText('.header-mini-cart-menu-cart-legend', '0')
 }
 
 module.exports = {
@@ -97,9 +89,22 @@ module.exports = {
         checkBlocks(client, '.ditch-mobile .WOMEN')
     },
 
-    'it Should add product to the cart, from Men > Product Slider':client=>{
-        goToCategoryPage(client, '.ditch-mobile .MEN')
-        addToCart(client)
+    'it Should add product to the cart, from Men > Product Slider': client => {
 
-    }
+        goToCategoryPage(client, '.ditch-mobile .MEN')
+        scrollToSlider(client)
+        // initialCartCount(client)
+        client.addToCart(sliderContainer)
+        .end();
+
+    },
+    'it Should add product to the cart, from Women > Product Slider': client => {
+
+        goToCategoryPage(client, '.ditch-mobile .WOMEN')
+        scrollToSlider(client)
+        // initialCartCount(client)
+        client.addToCart(sliderContainer)
+        .end();
+
+    },
 }

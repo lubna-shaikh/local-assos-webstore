@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="category.checkComponents"
+    errors="0" failures="0" hostname="" id="" package="category" skipped="0"
+    tests="1" time="62.17" timestamp="Wed, 13 Dec 2017 12:53:32 GMT">
+  
+    <testcase name="it Should add product to the cart, from Men &gt; Product Slider" classname="category.checkComponents" time="62.17" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
