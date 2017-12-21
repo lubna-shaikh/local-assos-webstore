@@ -46,37 +46,16 @@ const goToCategoryPage = function (client, menuItem) {
         .waitForElementVisible('.header-main-nav-content')
 }
 
-const sliderContainer = '.item-card .item-block-container:nth-child(1) .item-card-image-block '
-// const addToCart = function (client) {
-//     return client
-//         .getText('.header-mini-cart-menu-cart-legend', function (res) {
-//             var initialCount = Number(res.value);
-//             client
-//                 .click(sliderContainer + '.add-to-cart-btn')
-//                 .pause(3000)
-//                 .click(sliderContainer + '.size-options-drop-down')
-//                 .pause(3000)
-//                 .click(sliderContainer + '.size-options-drop-down option:nth-child(2)')
-//                 .pause(3000)
-//                 .click(sliderContainer + '.add-to-cart-btn-block')
-//                 .pause(5000)
-//                 .verify.containsText('.header-mini-cart-menu-cart-legend', initialCount + 1)
-//         })
-// }
+const sliderContainer = 'li:nth-child(1) .item-card .item-block-container:nth-child(2) .item-card-image-block '
 
-const scrollToSlider = function (client) {
+const scrollToSlider = function (client, sliderContainer) {
     client
         .getLocationInView('li:nth-child(1) .item-card')
         .pause(3000)
-        .moveToElement('.item-card .item-block-container:nth-child(1) .item-card-image-block', 10, 10, function () {
+        .moveToElement(sliderContainer, 10, 10, function () {
             console.log("callback");
         })
         .pause(3000)
-}
-
-const initialCartCount = function (client) {
-    client
-        .verify.containsText('.header-mini-cart-menu-cart-legend', '0')
 }
 
 module.exports = {
@@ -86,25 +65,26 @@ module.exports = {
     },
 
     'it Should verify that all components are present on the Women category page': client => {
-        checkBlocks(client, '.ditch-mobile .WOMEN')
+        goToCategoryPage(client, '.ditch-mobile .WOMEN')
+        checkBlocks(client)
     },
 
     'it Should add product to the cart, from Men > Product Slider': client => {
 
         goToCategoryPage(client, '.ditch-mobile .MEN')
-        scrollToSlider(client)
+        scrollToSlider(client, sliderContainer)
         // initialCartCount(client)
         client.addToCart(sliderContainer)
-        .end();
+            .end();
 
     },
     'it Should add product to the cart, from Women > Product Slider': client => {
 
         goToCategoryPage(client, '.ditch-mobile .WOMEN')
-        scrollToSlider(client)
+        scrollToSlider(client, sliderContainer)
         // initialCartCount(client)
         client.addToCart(sliderContainer)
-        .end();
+            .end();
 
     },
 }

@@ -66,7 +66,7 @@ module.exports = {
         clickTab(client, '.ditch-mobile .WOMEN', '/women');
     },
 
-    'it Should navigate to the New > Men Promo item web page and back to Home page': client => {
+    'it Should navigate to the New > Men Promo item web page and back to Home page':   client => {
         hoverAndClick(client, '.ditch-mobile .NEW', '.ditch-mobile a[href*="&gender=M"].menu-promo-content-block', '&gender=M');
     },
 

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="13"
+            failures="1"
+            tests="1">
+
+  <testsuite name="checkout.registration"
+    errors="13" failures="1" hostname="" id="" package="checkout" skipped="0"
+    tests="1" time="48.83" timestamp="Thu, 21 Dec 2017 06:47:32 GMT">
+  
+    <testcase name="it Should check for validation error messages on the Registration form" classname="checkout.registration" time="48.83" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#custentity_webstore_terms_condition+p&gt; contains text: &quot;please accept the terms &amp; conditions&quot;. Element could not be located. after 5000 milliseconds.">    at Object.it Should check for validation error messages on the Registration form (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/checkout/registration.js:42:21)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

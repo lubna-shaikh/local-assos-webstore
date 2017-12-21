@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="24"
+            failures="3"
+            tests="29">
+
+  <testsuite name="subCategory.addToCartSCWomen"
+    errors="24" failures="3" hostname="" id="" package="subCategory" skipped="0"
+    tests="29" time="1266" timestamp="Wed, 20 Dec 2017 11:36:46 GMT">
+  
+    <testcase name="it Should add item to cart from Women &gt; Road" classname="subCategory.addToCartSCWomen" time="39.17" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; Mountain" classname="subCategory.addToCartSCWomen" time="41.55" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; Urban" classname="subCategory.addToCartSCWomen" time="37.93" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; 1.4 Summer" classname="subCategory.addToCartSCWomen" time="38.11" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; 2.4 SPRING-FALL" classname="subCategory.addToCartSCWomen" time="41.11" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; 3.4 EARLY WINTER" classname="subCategory.addToCartSCWomen" time="41.49" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; 4.4 WINTER" classname="subCategory.addToCartSCWomen" time="40.33" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; Bib Shorts" classname="subCategory.addToCartSCWomen" time="58.95" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; KNICKERS AND TIGHTS" classname="subCategory.addToCartSCWomen" time="37.50" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; BODY INSULATOR" classname="subCategory.addToCartSCWomen" time="38.15" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; JERSEY" classname="subCategory.addToCartSCWomen" time="44.56" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; JACKETS" classname="subCategory.addToCartSCWomen" time="42.41" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; WIND-RAIN SHELLS" classname="subCategory.addToCartSCWomen" time="37.14" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; CAPS AND HEADBANDS" classname="subCategory.addToCartSCWomen" time="41.12" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; WARMERS - PROTECTORS" classname="subCategory.addToCartSCWomen" time="38.41" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; GLOVES" classname="subCategory.addToCartSCWomen" time="43.77" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; SOCKS" classname="subCategory.addToCartSCWomen" time="39.88" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; OVERSHOES" classname="subCategory.addToCartSCWomen" time="59.69" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; WATER BOTTLES" classname="subCategory.addToCartSCWomen" time="39.47" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; BMC REPLICA KIT" classname="subCategory.addToCartSCWomen" time="40.19" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; USA CYCLING REPLICA KIT" classname="subCategory.addToCartSCWomen" time="55.24" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; PROFBLACK COLLECTION" classname="subCategory.addToCartSCWomen" time="47.66" assertions="2">
+
+      <failure message="Testing if element &lt;.header-mini-cart-menu-cart-legend&gt; contains text: &quot;1&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:31:29)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; WORKS TEAM" classname="subCategory.addToCartSCWomen" time="51.74" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; REPLICA KITS" classname="subCategory.addToCartSCWomen" time="37.16" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; SIGNATURE" classname="subCategory.addToCartSCWomen" time="48.66" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; HELMETS" classname="subCategory.addToCartSCWomen" time="54.37" assertions="2">
+
+      <failure message="Testing if element &lt;.header-mini-cart-menu-cart-legend&gt; contains text: &quot;1&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:31:29)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; SHOES" classname="subCategory.addToCartSCWomen" time="50.95" assertions="2">
+
+      <failure message="Testing if element &lt;.header-mini-cart-menu-cart-legend&gt; contains text: &quot;1&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:31:29)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; EYEWEAR" classname="subCategory.addToCartSCWomen" time="41.72" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should add item to cart from Women &gt; GOOMAH BIKE" classname="subCategory.addToCartSCWomen" time="37.87" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:10:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down option[value=&quot;null&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:25:30)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:10:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down option[value=&quot;null&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:25:30)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block&quot; using: css selector
+    at scrollToProducts (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:15:10)
+    at Object.it Should add item to cart from Women &gt; PROFBLACK COLLECTION (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:144:9)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block&quot; using: css selector
+    at scrollToProducts (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:17:10)
+    at Object.it Should add item to cart from Women &gt; PROFBLACK COLLECTION (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:144:9)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .add-to-cart-btn&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:8:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:10:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down option[value=&quot;null&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:25:30)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .add-to-cart-btn-block&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:29:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block&quot; using: css selector
+    at scrollToProducts (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:15:10)
+    at Object.it Should add item to cart from Women &gt; HELMETS (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:167:9)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block&quot; using: css selector
+    at scrollToProducts (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:17:10)
+    at Object.it Should add item to cart from Women &gt; HELMETS (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:167:9)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .add-to-cart-btn&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:8:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:10:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down option[value=&quot;null&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:25:30)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .add-to-cart-btn-block&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:29:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block&quot; using: css selector
+    at scrollToProducts (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:15:10)
+    at Object.it Should add item to cart from Women &gt; SHOES (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:172:9)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block&quot; using: css selector
+    at scrollToProducts (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:17:10)
+    at Object.it Should add item to cart from Women &gt; SHOES (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/subCategory/addToCartSCWomen.js:172:9)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .add-to-cart-btn&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:8:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:10:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down option[value=&quot;null&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:25:30)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .add-to-cart-btn-block&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:29:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:10:22)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .item-card-image-block .size-options-drop-down option[value=&quot;null&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/addToCart.js:25:30)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
