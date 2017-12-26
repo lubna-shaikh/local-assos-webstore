@@ -9,7 +9,7 @@ module.exports = {
             .verify.urlContains('checkout.ssp?')
             .verify.urlContains('#login-register')
             .click('#login')
-            .setValue('#login-email', 'ritesh@paperplane.net')
+            .setValue('#login-email', 'bilal@paperplane.net')
             .setValue('#login-password', 'welcome123')
             .click(
             'button#button-login.login-register-login-submit.secondary-button'

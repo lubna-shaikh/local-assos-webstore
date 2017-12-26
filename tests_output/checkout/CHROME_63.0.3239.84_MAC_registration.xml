@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="13"
+<testsuites errors="24"
             failures="1"
             tests="1">
 
   <testsuite name="checkout.registration"
-    errors="13" failures="1" hostname="" id="" package="checkout" skipped="0"
-    tests="1" time="48.83" timestamp="Thu, 21 Dec 2017 06:47:32 GMT">
+    errors="24" failures="1" hostname="" id="" package="checkout" skipped="0"
+    tests="1" time="49.60" timestamp="Fri, 22 Dec 2017 14:02:56 GMT">
   
-    <testcase name="it Should check for validation error messages on the Registration form" classname="checkout.registration" time="48.83" assertions="9">
+    <testcase name="it Should check for validation error messages on the Registration form" classname="checkout.registration" time="49.60" assertions="9">
 
     
 
@@ -23,7 +23,7 @@
 
     
 
-      <failure message="Testing if element &lt;#custentity_webstore_terms_condition+p&gt; contains text: &quot;please accept the terms &amp; conditions&quot;. Element could not be located. after 5000 milliseconds.">    at Object.it Should check for validation error messages on the Registration form (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/checkout/registration.js:42:21)
+      <failure message="Testing if element &lt;.login-form-controls p:first&gt; contains text: &quot;please accept the terms &amp; conditions&quot;. Element could not be located. after 5000 milliseconds.">    at Object.it Should check for validation error messages on the Registration form (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/checkout/registration.js:43:21)
     at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
 
     
@@ -32,7 +32,7 @@
 
   
     <system-err>
-      ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+      ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
@@ -42,8 +42,8 @@
     at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
     at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
     at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
-    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+    at AsyncTree.traverse (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -54,7 +54,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -65,7 +65,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -76,7 +76,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -87,7 +87,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -98,7 +98,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -109,7 +109,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -120,7 +120,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -131,7 +131,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -142,7 +142,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -153,7 +153,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -164,7 +164,7 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
-ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&quot; using: css selector
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
     at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
     at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
     at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
@@ -175,6 +175,128 @@ ERROR: Unable to locate element: &quot;#custentity_webstore_terms_condition+p&qu
     at HttpRequest.emit (events.js:213:7)
     at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
     at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.login-form-controls p:first&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+Error while running element command: Provided locating strategy is not supported: .login-form-controls p:last. It must be one of the following:
+class name, css selector, id, name, link text, partial link text, tag name, xpath
+    at Object.it Should check for validation error messages on the Registration form (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/checkout/registration.js:44:14)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
     </system-err>
   
 

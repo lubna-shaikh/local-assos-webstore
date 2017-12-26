@@ -34,12 +34,20 @@ module.exports = {
         client
             .getLocationInView('#submit-button')
             .click('#submit-button')
-            .verify.containsText('#register-firstname+p','first name is required')
-            .verify.containsText('#register-lastname+p','last name is required')
-            .verify.containsText('#register-email+p','valid email is required')
-            .verify.containsText('#register-password+p','please enter a valid password')
-            .verify.containsText('#register-password2+p','confirm password is required')
-            .verify.containsText('#custentity_webstore_terms_condition+p','please accept the terms & conditions')
+            .verify.containsText('#register-firstname+p', 'first name is required')
+            .verify.containsText('#register-lastname+p', 'last name is required')
+            .verify.containsText('#register-email+p', 'valid email is required')
+            .verify.containsText('#register-password+p', 'please enter a valid password')
+            .verify.containsText('#register-password2+p', 'confirm password is required')
+            .getLocationInView('#submit-button')
+            .verify.containsText('.login-form-controls p:first', 'please accept the terms & conditions')
+            .element('.login-form-controls p:last', function (result) {
+                if (result.value && result.value.ELEMENT) {
+                    client
+                        .verify.containsText('.login-form-controls p:last', 'please read and accept the privacy policy')
+                }
+            })
             .end();
-    }
+    },
+
 }
