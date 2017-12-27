@@ -15,9 +15,9 @@
     "retry_attempts": 5
   },
   "src_folders": [
-    "./nightwatch/test"
+    "./nightwatch/test","./nightwatch/test/checkOutRB"
   ],
-  "custom_commands_path": "./nightwatch/commands",
+  "custom_commands_path": ["./nightwatch/commands","./nightwatch/commands/global"],
   "test_settings": {
     "default": {
       "launch_url": "https://www.assos.com",
