@@ -11,9 +11,10 @@ const navigateLinks = function (client, item, urlComponent, breadcrumbCSS, bread
         .verify.containsText(breadcrumbCSS, breadcrumbText)
         .verify.containsText(panelCSS, panelText)
         .verify.visible(activeClass)
-        .click('.ditch-mobile .header-logo-image')
-        .getLocationInView('.newsletter-sign-up')
-        .assert.elementPresent('.home-newsletter-sign-up .newsletter-subscription-form-label').end();
+        //  .click('.ditch-mobile .header-logo-image')
+        .back()
+        // .getLocationInView('.newsletter-sign-up')
+        // .assert.elementPresent('.home-newsletter-sign-up .newsletter-subscription-form-label').end();
 }
 
 const navigateForms = function (client, item, urlComponent, breadcrumbCSS, breadcrumbText) {
@@ -26,8 +27,8 @@ const navigateForms = function (client, item, urlComponent, breadcrumbCSS, bread
         .verify.urlContains(urlComponent)
         .verify.containsText(breadcrumbCSS, breadcrumbText)
         .click('.ditch-mobile .header-logo-image')
-         .getLocationInView('.newsletter-sign-up')
-            .assert.elementPresent('.home-newsletter-sign-up .newsletter-subscription-form-label')
+        .getLocationInView('.newsletter-sign-up')
+        .assert.elementPresent('.home-newsletter-sign-up .newsletter-subscription-form-label')
         .end();
 }
 
@@ -109,13 +110,13 @@ module.exports = {
             .pause(5000)
             .getLocationInView('.ditch-mobile .header-logo-image')
             // .waitForElementVisible('.ditch-mobile .header-logo-image')
-             .getLocationInView('.newsletter-sign-up')
+            .getLocationInView('.newsletter-sign-up')
             .assert.elementPresent('.home-newsletter-sign-up .newsletter-subscription-form-label')
             .end();
     },
 
     'it Should navigate to the CAREERS web page and back to Home page': client => {
-        navigateSocialMedia(client, 'a[href="https://www.linkedin.com/company/assos-of-switzerland"]', 'https://www.linkedin.com/company/assos-of-switzerland');
+        navigateSocialMedia(client, 'a[href="https://www.linkedin.com/company/assos-of-switzerland"]', 'https://www.linkedin.com');
     },
 
     'it Should navigate to the ASSOS Facebook page': client => {

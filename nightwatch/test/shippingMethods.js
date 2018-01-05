@@ -9,8 +9,8 @@ module.exports = {
             .verify.urlContains('checkout.ssp?')
             .verify.urlContains('#login-register')
             .click('#login')
-            .setValue('#login-email', 'bilal@paperplane.net')
-            .setValue('#login-password', 'welcome123')
+            .setValue('#login-email', 'pramod@paperplane.net')
+            .setValue('#login-password', 'foucault84')
             .click(
             'button#button-login.login-register-login-submit.secondary-button'
             )
@@ -63,6 +63,10 @@ module.exports = {
                                             })
                                             .getText('.order-wizard-shipmethod-module-option-price', function(price){
                                                 console.log(price.value)
+                                            })
+
+                                            .getText('.order-wizard-shipmethod-module-option-name+div span',function(deliveryDate){
+                                                console.log(deliveryDate.value)
                                             })
 
 

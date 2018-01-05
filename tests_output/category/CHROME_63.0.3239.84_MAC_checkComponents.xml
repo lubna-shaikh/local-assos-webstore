@@ -1,112 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="4">
+            tests="1">
 
   <testsuite name="category.checkComponents"
     errors="0" failures="0" hostname="" id="" package="category" skipped="0"
-    tests="4" time="140.3" timestamp="Wed, 20 Dec 2017 09:46:23 GMT">
+    tests="1" time="55.65" timestamp="Fri, 05 Jan 2018 07:24:08 GMT">
   
-    <testcase name="it Should verify that all components are present on the Men category page" classname="category.checkComponents" time="26.54" assertions="21">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="it Should verify that all components are present on the Women category page" classname="category.checkComponents" time="26.62" assertions="21">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="it Should add product to the cart, from Men &gt; Product Slider" classname="category.checkComponents" time="44.54" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="it Should add product to the cart, from Women &gt; Product Slider" classname="category.checkComponents" time="42.58" assertions="3">
+    <testcase name="it Should add product to the cart, from Women &gt; Product Slider" classname="category.checkComponents" time="55.65" assertions="3">
 
     
 
