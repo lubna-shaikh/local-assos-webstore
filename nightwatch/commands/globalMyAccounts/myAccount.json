@@ -1,0 +1,21 @@
+{
+    "firstName" : "Ritesh",
+    "lastName" : "Bhanushali",
+    "email" : "ritesh@paperplane.net",
+    "addr1" : "Meher House",
+    "addr2" : "Mumbai",
+    "city" : "Mumbai",
+    "countryCode" :"IN",
+    "state" : "Maharashtra",
+    "zipCode" : "400001",
+    "phone" : "44444444",
+    "cardNumber" : "5555444433331111",
+    "cvvNumber" : "737",
+    "expmonth" : "10",
+    "expyear" : "2018"
+
+
+
+
+
+}

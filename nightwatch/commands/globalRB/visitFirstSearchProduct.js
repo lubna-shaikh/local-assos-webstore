@@ -1,4 +1,5 @@
 module.exports = {
+
   command: function(searchCriteria) {
     this
     .waitForElementVisible('input.itemssearcher-input.typeahead.tt-input')
@@ -8,5 +9,5 @@ module.exports = {
     .pause(2000)
     .waitForElementVisible('.header-main-wraper')
     
-  },
+  }
 }

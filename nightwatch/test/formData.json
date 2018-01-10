@@ -2,7 +2,11 @@
 
 {
     "firstName": "Lubna",
+   // "nonnumericNumber":"abc",
     "lastName": "Shaikh",
     "password": "welcome123",
-    "confirmPassword": "welcome123"
+    "confirmPassword": "welcome123",
+    "incorrectPassword":"welcome12345",
+    "loginId":"lubna@paperplane.net",
+    "loginPassword":"welcome123456"
 }

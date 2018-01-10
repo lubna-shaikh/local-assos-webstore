@@ -1,4 +1,5 @@
 module.exports = {
+
   command: function (location) {
     this
       //.waitForElementVisible('.storelocator-accesspoints-headerlink-link-text')
@@ -13,5 +14,5 @@ module.exports = {
       //.acceptAlert()
       .verify.urlContains('/stores')
       .set
-  },
+  }
 }

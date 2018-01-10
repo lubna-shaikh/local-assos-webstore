@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="85"
+            failures="1"
+            tests="1">
+
+  <testsuite name="myAccounts.myAccountsFooter"
+    errors="85" failures="1" hostname="" id="" package="myAccounts" skipped="0"
+    tests="1" time="274.9" timestamp="Tue, 09 Jan 2018 11:45:17 GMT">
+  
+    <testcase name="it Should perform footer testcases for My Accounts page" classname="myAccounts.myAccountsFooter" time="274.9" assertions="58">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.ditch-mobile .header-logo-image&gt; to be visible for 10000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:6:14)</failure>
+
+      <failure message="Testing if the URL contains &quot;/privacy&quot;. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:7:21)</failure>
+
+      <failure message="Testing if element &lt;.global-views-breadcrumb&gt; contains text: &quot;HOME PRIVACY&quot;. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:8:21)</failure>
+
+      <failure message="Testing if element &lt;.privacy-anchor-item&gt; contains text: &quot;PRIVACY&quot;. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:9:21)</failure>
+
+      <failure message="Testing if element &lt;.privacy-anchor-item.active&gt; is visible. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:10:21)</failure>
+
+      <failure message="Timed out while waiting for element &lt;.ditch-mobile .header-logo-image&gt; to be present for 10000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:6:14)</failure>
+
+      <failure message="Testing if the URL contains &quot;/terms-conditions&quot;. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:7:21)</failure>
+
+      <failure message="Testing if element &lt;.global-views-breadcrumb&gt; contains text: &quot;HOME TERMS &amp; CONDITIONS&quot;. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:8:21)</failure>
+
+      <failure message="Testing if element &lt;.terms-anchor-item&gt; contains text: &quot;TERMS &amp; CONDITIONS&quot;. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:9:21)</failure>
+
+      <failure message="Testing if element &lt;.terms-anchor-item.active&gt; is visible. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:10:21)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the URL contains &quot;https://www.assos.com&quot;. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLogo.js:7:21)</failure>
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;#site-footer&quot; using: css selector
+    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:4:14)
+    at Object.F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.privacy-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;a[href=&quot;/terms-conditions&quot;]&quot; using: css selector
+    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalFooters/footerLinks.js:5:14)
+    at Object.F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.global-views-breadcrumb&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.terms-anchor-item.active&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

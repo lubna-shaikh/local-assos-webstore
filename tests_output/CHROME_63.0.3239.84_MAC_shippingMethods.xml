@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="15"
             failures="0"
             tests="1">
 
   <testsuite name="shippingMethods"
-    errors="1" failures="0" hostname="" id="" package="shippingMethods" skipped="0"
-    tests="1" time="4306" timestamp="Fri, 22 Dec 2017 10:07:16 GMT">
+    errors="15" failures="0" hostname="" id="" package="shippingMethods" skipped="0"
+    tests="1" time="5172" timestamp="Thu, 28 Dec 2017 11:27:06 GMT">
   
-    <testcase name="check Shipping" classname="shippingMethods" time="4306" assertions="6">
+    <testcase name="check Shipping" classname="shippingMethods" time="5172" assertions="6">
 
     
 
@@ -36,6 +36,160 @@
     at HttpRequest.emit (events.js:216:7)
     at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
     at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;#state option:nth-child(2)&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:40:38)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
+ERROR: Unable to locate element: &quot;.order-wizard-shipmethod-module-option-name+div span&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/shippingMethods.js:68:46)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+    at IncomingMessage.emit (events.js:207:7)
     </system-err>
   
 

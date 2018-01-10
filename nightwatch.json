@@ -15,9 +15,21 @@
     "retry_attempts": 5
   },
   "src_folders": [
-    "./nightwatch/test","./nightwatch/test/checkOutRB"
+    "./nightwatch/test",
+    "./nightwatch/test/checkOutRB"
   ],
-  "custom_commands_path": ["./nightwatch/commands","./nightwatch/commands/globalRB"],
+  "custom_commands_path": [
+    "./nightwatch/commands",
+    "./nightwatch/commands/globalRB",
+    "./nightwatch/commands/globalFooters",
+    "./nightwatch/commands/globalCheckout",
+    "./nightwatch/commands/globalShopping",
+    "./nightwatch/commands/globalForms",
+    "./nightwatch/commands/globalHeaders",
+    "./nightwatch/commands/globalMyAccounts",
+    "./nightwatch/commands/extraCommands"
+
+  ],
   "test_settings": {
     "default": {
       "launch_url": "https://beta.assos.com",
@@ -31,72 +43,75 @@
       "desiredCapabilities": {
         "browserName": "chrome",
         "marionette": false,
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
         "chromeOptions": {
-        "args": [
+          "args": [
             "window-size=1980,1024"
-        ]
+          ]
         }
       }
     },
-    "local_chrome" : {
-      "launch_url" : "http://uat.assos.com",
-      "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+    "local_chrome": {
+      "launch_url": "http://uat.assos.com",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
       "silent": true,
-      "screenshots" : {
-        "enabled" : false,
-        "path" : ""
+      "screenshots": {
+        "enabled": false,
+        "path": ""
       },
-      "desiredCapabilities" : {
-        "browserName" : "chrome",
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
         "chromeOptions": {
-          "args" : ["start-fullscreen"]
+          "args": [
+            "start-fullscreen"
+          ]
         }
       }
     },
-
-    "production" : {
-      "launch_url" : "https://www.assos.com",
-      "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+    "production": {
+      "launch_url": "https://www.assos.com",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
       "silent": true,
-      "screenshots" : {
-        "enabled" : false,
-        "path" : ""
+      "screenshots": {
+        "enabled": false,
+        "path": ""
       },
-      "desiredCapabilities" : {
-        "browserName" : "chrome",
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
         "chromeOptions": {
-          "args" : ["start-fullscreen"]
+          "args": [
+            "start-fullscreen"
+          ]
         }
       }
     },
-
-    "beta" : {
-      "launch_url" : "https://beta.assos.com",
-      "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+    "beta": {
+      "launch_url": "https://beta.assos.com",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
       "silent": true,
-      "screenshots" : {
-        "enabled" : false,
-        "path" : ""
+      "screenshots": {
+        "enabled": false,
+        "path": ""
       },
-      "desiredCapabilities" : {
-        "browserName" : "chrome",
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
         "chromeOptions": {
-          "args" : ["start-fullscreen"]
+          "args": [
+            "start-fullscreen"
+          ]
         }
       }
     },
-
     "chrome": {
       "desiredCapabilities": {
         "browserName": "chrome",

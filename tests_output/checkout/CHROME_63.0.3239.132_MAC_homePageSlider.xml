@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="checkout.homePageSlider"
+    errors="0" failures="1" hostname="" id="" package="checkout" skipped="0"
+    tests="1" time="142.5" timestamp="Wed, 10 Jan 2018 07:08:47 GMT">
+  
+    <testcase name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider" time="142.5" assertions="28">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;div[data-view=&quot;Shipping.Address&quot;] .sec-address-title&gt; contains text: &quot;Ritesh Bhanushali&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/loggedInCheckout.js:111:29)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;div[data-view=&quot;Billing.Address&quot;] .sec-address-title&gt; contains text: &quot;Ritesh Bhanushali&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/loggedInCheckout.js:119:29)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.order-wizard-showshipments-module-shipmethod-rate&gt; contains text: &quot;FREE!&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/loggedInCheckout.js:126:29)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
