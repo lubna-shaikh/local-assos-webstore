@@ -14,18 +14,20 @@ module.exports = {
 
                 for (var i = 1; i <= noOfItems; i++) {
                     const itemClicked = partnershipPages + ':nth-child(' + i + ')';
-                    client.getText(itemClicked, function (res) {
+                    this.getText(itemClicked, function (res) {
                         console.log(res.value);
-                        var itemName = res.value;
-                        client
+                        const itemName = res.value;
+                        this
                             .click(itemClicked)
                             .pause(5000)
-                            .verify.containsText('li.global-views-breadcrumb-item-active', itemName)
+                            .getLocationInView('.assos-world-cms-holder li.global-views-breadcrumb-item-active')
+                            .verify.containsText('.assos-world-cms-holder li.global-views-breadcrumb-item-active', itemName)
                             .verify.containsText('div.product-details-full-content-header > h1', itemName)
 
 
                     })
                         .back()
+                        .acceptAlert()
                         .waitForElementVisible('div.row.header-main-nav-content li.ASSOS.WORLD > a:nth-child(1)')
                         .moveToElement('div.row.header-main-nav-content li.ASSOS.WORLD > a:nth-child(1)', 0, 0)
                         .pause(4000);

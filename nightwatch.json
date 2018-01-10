@@ -17,10 +17,10 @@
   "src_folders": [
     "./nightwatch/test","./nightwatch/test/checkOutRB"
   ],
-  "custom_commands_path": ["./nightwatch/commands","./nightwatch/commands/global"],
+  "custom_commands_path": ["./nightwatch/commands","./nightwatch/commands/globalRB"],
   "test_settings": {
     "default": {
-      "launch_url": "https://www.assos.com",
+      "launch_url": "https://beta.assos.com",
       "selenium_port": 4444,
       "selenium_host": "localhost",
       "silent": true,

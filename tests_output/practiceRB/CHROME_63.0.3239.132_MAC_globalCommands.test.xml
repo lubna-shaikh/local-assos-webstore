@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="practiceRB.globalCommands.test"
+    errors="1" failures="0" hostname="" id="" package="practiceRB" skipped="1"
+    tests="2" time="28.77" timestamp="Wed, 10 Jan 2018 06:40:58 GMT">
+  
+    <testcase name="Global commands test 1" classname="practiceRB.globalCommands.test" time="28.77" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Practice RB / Global Commands Test / Global commands test 1]:
+
+  ReferenceError: client is not defined
+    at Object.&lt;anonymous&gt; (/Users/ritesh/Documents/Nightwatch_Automation/assos_local/local-assos-webstore/nightwatch/commands/globalRB/visitAssosWorld.js:17:21)
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/api/protocol.js:1303:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:170:16)
+    at emitNone (events.js:91:20)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Global commands test 2" classname="practiceRB.globalCommands.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

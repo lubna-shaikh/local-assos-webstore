@@ -4,7 +4,7 @@ module.exports = {
       .url(this.launch_url)
       .setValue('input[data-type="search-input"]','Rally Shorts')
       .pause(3000)
-      .click('img[src="http://eu.dev.assos.com/Webstore Images/rally-shorts_Gold-W.jpg?resizeid=2&resizeh=213&resizew=170"]')
+      .click('div.tt-suggestion:nth-child(2) .itemssearcher-item-results-title')
       //.getLocationInView('.btn-link.allign-right')
       //.waitForElementVisible('.btn-link.allign-right')
       //.click('.btn-link.allign-right')

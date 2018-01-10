@@ -1,7 +1,7 @@
 module.exports = {
   command: function(appendLaunchUrl,waitForElement) {
-    this
-    .url(client.launchURL + appendLaunchUrl)
+    return this
+    .url(this.launchUrl + appendLaunchUrl)
     .waitForElementVisible(waitForElement)
   },
 }

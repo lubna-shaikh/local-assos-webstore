@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="practiceRB.globalCommands.test"
+    errors="1" failures="0" hostname="" id="" package="practiceRB" skipped="0"
+    tests="1" time="0.006000" timestamp="Tue, 09 Jan 2018 13:00:11 GMT">
+  
+    <testcase name="Global commands test" classname="practiceRB.globalCommands.test" time="0.006000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Practice RB / Global Commands Test / Global commands test]:
+
+  ReferenceError: goToURL is not defined
+    at Object.Global commands test (/Users/ritesh/Documents/Nightwatch_Automation/assos_local/local-assos-webstore/nightwatch/test/practiceRB/globalCommands.test.js:6:9)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
