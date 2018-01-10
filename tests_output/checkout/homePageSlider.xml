@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="1"
             failures="0"
-            tests="1">
+            tests="18">
 
   <testsuite name="checkout.homePageSlider"
-    errors="1" failures="0" hostname="" id="" package="checkout" skipped="0"
-    tests="1" time="0.008000" timestamp="Fri, 05 Jan 2018 11:07:23 GMT">
+    errors="1" failures="0" hostname="" id="" package="checkout" skipped="17"
+    tests="18" time="0.006000" timestamp="Tue, 09 Jan 2018 15:13:57 GMT">
   
-    <testcase name="it Should perform guest checkout from Home page slider, then register (Gift Certificate)" classname="checkout.homePageSlider" time="0.008000" assertions="0">
+    <testcase name="it Should perform guest checkout from Home page slider, then register (Credit Card)" classname="checkout.homePageSlider" time="0.006000" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Checkout / Home Page Slider / it Should perform guest checkout from Home page slider, then register (Gift Certificate)]:
+        Error while running [Checkout / Home Page Slider / it Should perform guest checkout from Home page slider, then register (Credit Card)]:
 
-  TypeError: client.addToCart(...).checkoutCartOU is not a function
-    at Object.it Should perform guest checkout from Home page slider, then register (Gift Certificate) (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/checkout/homePageSlider.js:25:14)
+  TypeError: client.addToCart(...).checkoutCartPU(...).guestDetails(...).performGuestCheckoutCC is not a function
+    at Object.it Should perform guest checkout from Home page slider, then register (Credit Card) (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/checkout/homePageSlider.js:31:14)
     at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
@@ -29,6 +29,93 @@
     </system-err>
   
 
+  
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should register and checkout from Home page slider - Credit card" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

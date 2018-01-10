@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="forms.submitForms"
+    errors="0" failures="1" hostname="" id="" package="forms" skipped="0"
+    tests="6" time="158.0" timestamp="Tue, 09 Jan 2018 11:38:08 GMT">
+  
+    <testcase name="it Should submit the Contact Us form and display Thank you message" classname="forms.submitForms" time="27.62" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should submit the Become a Dealer form and display Thank you message" classname="forms.submitForms" time="31.29" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should submit the Club Gear form and display Thank you message" classname="forms.submitForms" time="28.93" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should check that Privacy Policy opens in a new tab - Contact Us form" classname="forms.submitForms" time="32.51" assertions="2">
+
+      <failure message="Testing if the URL equals &quot;https://beta.assos.com/privacy&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/forms/submitForms.js:120:25)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="it Should check that Privacy Policy opens in a new tab - Become a Dealer form" classname="forms.submitForms" time="17.55" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should check that Privacy Policy opens in a new tab - Club Gear form" classname="forms.submitForms" time="20.10" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
