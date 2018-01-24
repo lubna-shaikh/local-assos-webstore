@@ -5,9 +5,11 @@
 
   <testsuite name="checkout.homePageSlider"
     errors="0" failures="1" hostname="" id="" package="checkout" skipped="0"
-    tests="1" time="142.5" timestamp="Wed, 10 Jan 2018 07:08:47 GMT">
+    tests="1" time="140.7" timestamp="Tue, 23 Jan 2018 09:32:32 GMT">
   
-    <testcase name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider" time="142.5" assertions="28">
+    <testcase name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider" time="140.7" assertions="29">
+
+    
 
     
 

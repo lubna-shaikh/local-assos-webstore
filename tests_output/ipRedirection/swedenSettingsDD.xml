@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ipRedirection.swedenSettingsDD"
+    errors="1" failures="0" hostname="" id="" package="ipRedirection" skipped="0"
+    tests="1" time="0.006000" timestamp="Tue, 23 Jan 2018 11:44:39 GMT">
+  
+    <testcase name="it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Logged-in User (Transacted)" classname="ipRedirection.swedenSettingsDD" time="0.006000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Ip Redirection / Sweden Settings DD / it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Logged-in User (Transacted)]:
+
+  ReferenceError: transactedLogin is not defined
+    at Object.it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Logged-in User (Transacted) (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/ipRedirection/swedenSettingsDD.js:30:20)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

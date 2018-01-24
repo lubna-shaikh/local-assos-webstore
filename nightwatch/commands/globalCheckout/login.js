@@ -1,3 +1,5 @@
+const transactedLogin = require("./transactedLogin.json");
+
 module.exports = {
   command: function (username, password, callback) {
     this
