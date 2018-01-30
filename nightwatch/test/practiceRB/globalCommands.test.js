@@ -3,45 +3,28 @@ module.exports ={
     'Global commands test 1' : client => {
 
         client
-        .url('http://assos.dev.paperplane.net')
-        .acceptAlert()
-        //.goToURL('','.header-profile-login-link')
-        .visitAssosWorld('.ASSOS.open .menu-category-listing-men li')
+        //.url('http://assos.dev.paperplane.net')
+        
+        .goToURL('/ij-bonka-6?quantity=1&Item%20Gender=ij-bonka-6_Red%20Swiss-1-M.jpg&color=144','.header-profile-login-link')
+        .goToLogin('ritesh@paperplane.net','welcome123')
         
         
-
-        .pause(4000)
-        .end();
-
-
-        //.visitCustServ()
-
-        //.visitFirstSearchProduct('T.equipe')
-        //.visitShortsStories()
-        //.womenFromCartPopover()
-        //.menFromCartPopover()
-        //.visitStoreLoc('Perth Australia')
-        //.goToLogin('ritesh@paperplane.net','welcome123')
-
-    },
-
-    'Global commands test 2' : client => {
-
-        client
-        .url('http://assos.dev.paperplane.net')
-        .acceptAlert()
-        //.goToURL('','.header-profile-login-link')
-        .visitAssosWorld('.ASSOS.open .menu-category-listing-women a')
+        
+        
+        
         
         
 
         .pause(4000)
         .end();
 
-
+        //.goToCartPage()
+        //.imageSlider()
+        //.viewCartPopover()
         //.visitCustServ()
-
+        //.visitAssosWorld('.ASSOS.open .menu-category-listing-men li')     PENDING
         //.visitFirstSearchProduct('T.equipe')
+        //.goToSearchResults('Ij.HaBu')
         //.visitShortsStories()
         //.womenFromCartPopover()
         //.menFromCartPopover()

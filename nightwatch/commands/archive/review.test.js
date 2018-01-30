@@ -1,3 +1,5 @@
+/*
+
 const username = 'test.paperplane@gmail.com',
   password = '123assos';
 
@@ -609,3 +611,5 @@ describe('Write Review testing', () => {
     });
   });
 });
+
+*/

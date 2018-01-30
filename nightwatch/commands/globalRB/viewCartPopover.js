@@ -1,7 +1,7 @@
 module.exports = {
     command: function () {
         this
-            //.waitForElementVisible('.header-mini-cart-menu-cart-legend')
+            .waitForElementVisible('.header-mini-cart-menu-cart-legend')
             .getText('.header-mini-cart-menu-cart-legend', function (result) {
                 var cartCount = Number(result.value);
                 console.log('Cart Count: ',cartCount);

@@ -1,6 +1,6 @@
 module.exports = {
 
-    'it Should check if cart count is not zero after adding a product': client => {
+    'it Should check if cart count is incremented after adding a product': client => {
         client
             .url("http://www.assos.com/women/bib-shorts")
             .waitForElementVisible('.header-mini-cart-menu-cart-legend')

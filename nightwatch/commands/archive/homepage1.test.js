@@ -1,3 +1,5 @@
+/*
+
 const username = 'ritesh@paperplane.net',
     password = 'ritesh123';
 
@@ -92,6 +94,7 @@ describe('Homepage', () => {
         //var buttonText2 = buttonText1.getText();
 
         //console.log(buttonText2.getText());
+        /*
 
         client.getText(".profile-emailpreferences-submit.primary-button", function (result) {
             var abc = result.value;
@@ -128,3 +131,5 @@ describe('Homepage', () => {
     });
 
 })
+*/
+

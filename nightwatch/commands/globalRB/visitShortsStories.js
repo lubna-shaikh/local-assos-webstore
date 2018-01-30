@@ -7,3 +7,4 @@ module.exports = {
             .waitForElementVisible('.bxslider .leader-board-slide-js:nth-child(2)')
     
   }
+}

@@ -19,14 +19,15 @@ module.exports = {
                         const itemName = res.value;
                         this
                             .click(itemClicked)
-                            .pause(5000)
+                            .pause(10000)
                             .getLocationInView('.assos-world-cms-holder li.global-views-breadcrumb-item-active')
                             .verify.containsText('.assos-world-cms-holder li.global-views-breadcrumb-item-active', itemName)
-                            .verify.containsText('div.product-details-full-content-header > h1', itemName)
+                            .verify.containsText('.product-set-title:not(.als-product-slider-set-title)', itemName)
 
 
                     })
                         .back()
+                        .pause(2000)
                         .acceptAlert()
                         .waitForElementVisible('div.row.header-main-nav-content li.ASSOS.WORLD > a:nth-child(1)')
                         .moveToElement('div.row.header-main-nav-content li.ASSOS.WORLD > a:nth-child(1)', 0, 0)

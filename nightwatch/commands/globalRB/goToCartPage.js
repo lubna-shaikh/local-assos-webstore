@@ -3,7 +3,7 @@ module.exports = {
     this
     .waitForElementVisible('.header-mini-cart-menu-cart-icon')
     .click('.header-mini-cart-menu-cart-icon')
-    .click('header-mini-cart-button-view-cart')
-    .waitForElementVisible('#btn-proceed-checkout')
+    .click('.header-mini-cart-button-view-cart')
+    .waitForElementVisible('.cart-detailed-header .checkout-securely-btn')
   }
 }
