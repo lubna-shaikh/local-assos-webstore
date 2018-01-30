@@ -4,6 +4,6 @@ module.exports = {
             .getLocationInView('.header-mini-cart-menu-cart-legend')
             .click('.header-mini-cart-menu-cart-legend')
             .click('.header-mini-cart-button-view-cart')
-            .waitForElementVisible('.cart-detailed-title')
+            .waitForElementVisible('.cart-lines-row:nth-child(1)')
     }
 }

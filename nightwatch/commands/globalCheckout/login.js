@@ -1,7 +1,7 @@
-const transactedLogin = require("./transactedLogin.json");
+//const transactedLogin = require("./transactedLogin.json");
 
 module.exports = {
-  command: function (username, password, callback) {
+  command: function (username, password) {
     this
       .waitForElementVisible(
       '.login-register-login-form-input#login-email')

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="21">
+
+  <testsuite name="ipRedirection.filterAndSort"
+    errors="1" failures="0" hostname="" id="" package="ipRedirection" skipped="20"
+    tests="21" time="0.008000" timestamp="Mon, 29 Jan 2018 09:12:02 GMT">
+  
+    <testcase name="it Should apply High to Low sort, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort" time="0.008000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Ip Redirection / Filter And Sort / it Should apply High to Low sort, and assert language and currency - Non-logged-in user]:
+
+  ReferenceError: expectSEK is not defined
+    at Object.it Should apply High to Low sort, and assert language and currency - Non-logged-in user (/Users/lubna/Documents/local-assos-webstore/nightwatch/test/ipRedirection/filterAndSort.js:27:53)
+    at Module.call (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="it Should apply High to Low sort, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply High to Low sort, and assert language and currency - logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Seasons filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Activity filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Color filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Seasons filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Activity filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Color filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Seasons filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Activity filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Color filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Seasons filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Activity filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Color filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Seasons filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Activity filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Color filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Seasons filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Activity filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Color filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -29,7 +29,7 @@ module.exports = {
             .end();
     },
 
-    'it Should check for validation error messages on the Registration form': client => {
+    'R0002: it Should check for validation error messages on the Registration form': client => {
         goToRegistrationPage(client)
         client
             .getLocationInView('#submit-button')
@@ -49,7 +49,7 @@ module.exports = {
             })
             .end();
     },
-    'it Should display error for mismatch in Password and Confirm Password': client => {
+    'R0003: it Should display error for mismatch in Password and Confirm Password': client => {
         //  console.log(pqr);
         goToRegistrationPage(client)
         client
@@ -65,6 +65,26 @@ module.exports = {
             .verify.containsText('#register-password2+p', 'password and confirm password do not match')
             .end();
     },
+
+    'it Should perform footer testcases for My Accounts page': client => {
+        goToRegistrationPage(client)
+        client
+            .allFooters()
+            .end();
+    },
+
+    'R0008: it Should Validate the Logo navigates to Home page': client => {
+        goToRegistrationPage(client)
+        client
+            .goToHomePage()
+            .end();
+    },
+
+    'R0009: it Should Verify that Terms and Conditions opens in a new tab': client => {
+        goToRegistrationPage(client)
+        client
+            .assertNewTab('span a[href*="/terms-conditions"]', '/terms-conditions')
+    }
 
 
 

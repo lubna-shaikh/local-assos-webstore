@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="navigation.navigationHeader"
+    errors="0" failures="0" hostname="" id="" package="navigation" skipped="0"
+    tests="1" time="102.4" timestamp="Thu, 25 Jan 2018 06:44:46 GMT">
+  
+    <testcase name="it Should change the Language and Currency from the Settings dropdown, and assert the URL component" classname="navigation.navigationHeader" time="102.4" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

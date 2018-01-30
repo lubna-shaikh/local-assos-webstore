@@ -1,6 +1,7 @@
 const transactedLogin = require("../../commands/globalCheckout/transactedLogin.json");
 const nonTransactedLogin = require("../../commands/globalCheckout/nonTransactedLogin.json");
 const subCategory = '.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text';
+const subCategoryProduct = '.product-set .item-block-container:nth-child(2) .item-card-image-block';
 const searchResults = '.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text';
 const homePage = 'li:nth-child(1) .item-card .item-block-container:nth-child(2) .item-card-image-block';
 const category = 'li:nth-child(1) .item-card .item-block-container:nth-child(2) .item-card-image-block';
@@ -22,6 +23,33 @@ module.exports = {
             .addToCart(homePageItem)
             .goToCartPage()
             .assertCartPageCurrency(expectSEK)
+            // 27th of January, 2018
+
+            .goToSubCategory('category', '.MEN', '/men/jackets')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            .goToSubCategory('category', '.WOMEN', '/women/jackets')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+
 
             .goToCategory('.MEN')
             .scrollToItem(category)
@@ -35,8 +63,7 @@ module.exports = {
             .goToCartPage()
             .assertCartPageCurrency(expectSEK)
 
-           
-
+            // 27th of January, 2018  
 
             .goToCategory('.WOMEN')
             .assertEN_SEK()
@@ -86,6 +113,49 @@ module.exports = {
             .login(transactedLogin.email, transactedLogin.password)
             .getTransactedCurrency()
             // .assertNoCurrencyChange()
+
+
+            // 27th of January, 2018
+
+            .goToSubCategory('category', '.MEN', '/men/jackets')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+            .goToSubCategory('category', '.WOMEN', '/women/jackets')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+
+
+            .goToCategory('.MEN')
+            .scrollToItem(category)
+            .addToCart(category)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+            .goToCategory('.WOMEN')
+            .scrollToItem(category)
+            .addToCart(category)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+            // 27th of January, 2018  
 
             .goToHomePage()
             .assertNoCurrencyChange()
@@ -140,6 +210,48 @@ module.exports = {
             .loginAvatar()
             .login(nonTransactedLogin.email, nonTransactedLogin.password)
             .assertEN_SEK()
+
+            // 27th of January, 2018
+
+            .goToSubCategory('category', '.MEN', '/men/jackets')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            .goToSubCategory('category', '.WOMEN', '/women/jackets')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSFR)
+
+            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+
+
+            .goToCategory('.MEN')
+            .scrollToItem(category)
+            .addToCart(category)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            .goToCategory('.WOMEN')
+            .scrollToItem(category)
+            .addToCart(category)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+            // 27th of January, 2018  
 
             .goToHomePage()
             .assertEN_SEK()

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="2"
+            tests="18">
 
   <testsuite name="checkout.homePageSlider"
-    errors="0" failures="1" hostname="" id="" package="checkout" skipped="0"
-    tests="1" time="140.7" timestamp="Tue, 23 Jan 2018 09:32:32 GMT">
+    errors="0" failures="2" hostname="" id="" package="checkout" skipped="16"
+    tests="18" time="132.4" timestamp="Thu, 25 Jan 2018 16:47:50 GMT">
   
-    <testcase name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider" time="140.7" assertions="29">
+    <testcase name="it Should perform guest checkout from Home page slider, then register (Credit Card)" classname="checkout.homePageSlider" time="84.24" assertions="24">
 
     
 
@@ -37,19 +37,7 @@
 
     
 
-      <failure message="Testing if element &lt;div[data-view=&quot;Shipping.Address&quot;] .sec-address-title&gt; contains text: &quot;Ritesh Bhanushali&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/loggedInCheckout.js:111:29)</failure>
-
     
-
-    
-
-    
-
-    
-
-    
-
-      <failure message="Testing if element &lt;div[data-view=&quot;Billing.Address&quot;] .sec-address-title&gt; contains text: &quot;Ritesh Bhanushali&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/loggedInCheckout.js:119:29)</failure>
 
     
 
@@ -63,7 +51,26 @@
 
     
 
-      <failure message="Testing if element &lt;.order-wizard-showshipments-module-shipmethod-rate&gt; contains text: &quot;FREE!&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/loggedInCheckout.js:126:29)</failure>
+      <failure message="Testing if element &lt;.order-wizard-showshipments-module-shipmethod-rate&gt; contains text: &quot;FREE!&quot;. after 5000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalCheckout/performGuestCheckout.js:81:29)</failure>
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider" time="48.11" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the URL contains &quot;cur=CHF&quot;. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalHeaders/assertNoCurrencyChange.js:9:21)</failure>
 
     
     </testcase>
@@ -71,6 +78,88 @@
 
   
 
+  
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Transacted User (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, for a logged-in user - Non-transacted (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Transacted User (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address already present, Credit Card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address not present, Credit Card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address not present, Credit card already present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should perform checkout from Home page slider, after logging in - Non-transacted (Address already present, Credit card not present)" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should register at the time of checkout from Home page slider - Credit card" classname="checkout.homePageSlider">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>

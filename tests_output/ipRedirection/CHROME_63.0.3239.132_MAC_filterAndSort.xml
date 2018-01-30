@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="21">
+
+  <testsuite name="ipRedirection.filterAndSort"
+    errors="0" failures="1" hostname="" id="" package="ipRedirection" skipped="20"
+    tests="21" time="36.08" timestamp="Mon, 29 Jan 2018 09:19:33 GMT">
+  
+    <testcase name="it Should apply High to Low sort, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort" time="36.08" assertions="2">
+
+      <failure message="Testing if element &lt;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&gt; contains text: &quot;SEK&quot;. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalShopping/itemCurrency.js:11:25)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="it Should apply High to Low sort, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply High to Low sort, and assert language and currency - logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Seasons filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Activity filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Color filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Seasons filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Activity filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Color filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Seasons filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Activity filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should apply Color filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Seasons filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Activity filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Color filter, and assert language and currency - Non-logged-in user" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Seasons filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Activity filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Color filter, and assert language and currency - Logged-in user (Non-transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Seasons filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Activity filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should clear Color filter, and assert language and currency - Logged-in user (Transacted)" classname="ipRedirection.filterAndSort">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
