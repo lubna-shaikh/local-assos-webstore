@@ -28,7 +28,7 @@ module.exports = {
                     .pause(3000)
                     .click(sliderContainer + ' .add-to-cart-btn-block')
                     .pause(5000)
-                    .verify.containsText('.header-mini-cart-menu-cart-legend', initialCount + 1)
+                    .assert.containsText('.header-mini-cart-menu-cart-legend', initialCount + 1)
                    // .end();
             })
     }

@@ -10,9 +10,7 @@ const scrollToSlider = function (client, sliderContainer) {
         //  .getLocationInView('.product-set .item-block-container:nth-child(1) .item-card-image-block')
         .getLocationInView(sliderContainer)
         .pause(3000)
-        .moveToElement(sliderContainer, 10, 10, function () {
-            console.log("callback");
-        })
+        .moveToElement(sliderContainer, 10, 10)
         .pause(3000)
 }
 
@@ -59,7 +57,7 @@ module.exports = {
             .assertCurrencyChange()
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertNoCurrencyChange()
+            .getTransactedCurrency()
             .addAddress()
             .assertNoCurrencyChange()
             .addCreditCard()

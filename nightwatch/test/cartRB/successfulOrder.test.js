@@ -1,1 +1,0 @@
-require('C:/automation/tests/onboarding.js');

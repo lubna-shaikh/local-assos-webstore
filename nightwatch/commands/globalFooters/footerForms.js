@@ -4,10 +4,10 @@ module.exports = {
             .getLocationInView('#site-footer')
             .click(item)
             .waitForElementVisible('.ditch-mobile .header-logo-image')
-            .verify.urlContains(urlComponent)
-            .verify.containsText('.global-views-breadcrumb', breadcrumbText)
+            .assert.urlContains(urlComponent)
+            .assert.containsText('.global-views-breadcrumb', breadcrumbText)
             // .click('.ditch-mobile .header-logo-image')
-            .back()
+            //.back()
             // .getLocationInView('.newsletter-sign-up')
             // .verify.elementPresent('.home-newsletter-sign-up .newsletter-subscription-form-label');
     }
