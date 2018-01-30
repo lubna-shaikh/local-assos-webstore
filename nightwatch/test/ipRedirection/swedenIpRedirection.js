@@ -7,15 +7,18 @@ const homePage = 'li:nth-child(1) .item-card .item-block-container:nth-child(2) 
 const category = 'li:nth-child(1) .item-card .item-block-container:nth-child(2) .item-card-image-block';
 const expectSEK = 'SEK';
 const expectSFR = 'SFr.';
+const expectCHF = 'CHF';
+const expectEN = 'en';
 const homePageItem = 'li:nth-child(1) .item-card .item-block-container:nth-child(2) .item-card-image-block';
 
 module.exports = {
-    '@tags':'sweden',
+    '@tags': 'sweden',
     'it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Non-logged-in User': client => {
 
         client
             .url(client.launchUrl)
-            .assertEN_SEK()
+            .cancelCookieMessage()
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
             .itemCurrency('pdp', homePage, expectSEK)
 
             .goToHomePage()
@@ -25,6 +28,19 @@ module.exports = {
             .assertCartPageCurrency(expectSEK)
             // 27th of January, 2018
 
+            .goToCategory('.MEN')
+            .scrollToItem(category)
+            .addToCart(category)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+
+            .goToCategory('.WOMEN')
+            .scrollToItem(category)
+            .addToCart(category)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .scrollToItem(subCategoryProduct)
             .addToCart(subCategoryProduct)
@@ -37,69 +53,61 @@ module.exports = {
             .goToCartPage()
             .assertCartPageCurrency(expectSEK)
 
+            .goToSubCategory('category', '.WOMEN', '/women/jackets')
+            .itemCurrency('list', subCategory, expectSEK)
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
+
+
+            .goToSubCategory('category', '.MEN', '/men/jackets')
+            .itemCurrency('list', subCategory, expectSEK)
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
+
+
+
+            .goToSubCategory('category', '.WOMEN', '/women/activity/road')
+            .scrollToItem(subCategoryProduct)
+            .addToCart(subCategoryProduct)
+            .goToCartPage()
+            .assertCartPageCurrency(expectSEK)
+
+
             .goToSubCategory('category', '.MEN', '/men/activity/road')
             .scrollToItem(subCategoryProduct)
             .addToCart(subCategoryProduct)
             .goToCartPage()
             .assertCartPageCurrency(expectSEK)
 
+
+
             .goToSubCategory('category', '.MEN', '/men/activity/road')
-            .scrollToItem(subCategoryProduct)
-            .addToCart(subCategoryProduct)
-            .goToCartPage()
-            .assertCartPageCurrency(expectSEK)
+            .itemCurrency('list', subCategory, expectSEK)
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
+            .goToSubCategory('category', '.WOMEN', '/women/activity/road')
+            .itemCurrency('list', subCategory, expectSEK)
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
-
-            .goToCategory('.MEN')
-            .scrollToItem(category)
-            .addToCart(category)
-            .goToCartPage()
-            .assertCartPageCurrency(expectSEK)
-
-            .goToCategory('.WOMEN')
-            .scrollToItem(category)
-            .addToCart(category)
-            .goToCartPage()
-            .assertCartPageCurrency(expectSEK)
+            .goToSubCategory('new', '.NEW')
+            .itemCurrency('pdp', searchResults, expectSEK)
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
             // 27th of January, 2018  
 
             .goToCategory('.WOMEN')
-            .assertEN_SEK()
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
             .itemCurrency('pdp', category, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
             .goToCategory('.MEN')
-            .assertEN_SEK()
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
             .itemCurrency('pdp', category, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
             .search()
             .itemCurrency('list', searchResults, expectSEK)
-            .assertEN_SEK()
-
-            .goToSubCategory('category', '.MEN', '/men/jackets')
-            .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
-
-            .goToSubCategory('category', '.WOMEN', '/women/jackets')
-            .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
-
-            .goToSubCategory('category', '.MEN', '/men/activity/road')
-            .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
-
-            .goToSubCategory('category', '.WOMEN', '/women/activity/road')
-            .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
-
-            .goToSubCategory('new', '.NEW')
-            .itemCurrency('pdp', searchResults, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('guest', expectSEK, expectEN)
 
             .end();
 
@@ -111,8 +119,8 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .getTransactedCurrency()
-            // .assertNoCurrencyChange()
+            // .getTransactedCurrency()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
 
             // 27th of January, 2018
@@ -135,7 +143,7 @@ module.exports = {
             .goToCartPage()
             .assertCartPageCurrency(expectSFR)
 
-            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .goToSubCategory('category', '.WOMEN', '/women/activity/road')
             .scrollToItem(subCategoryProduct)
             .addToCart(subCategoryProduct)
             .goToCartPage()
@@ -158,46 +166,46 @@ module.exports = {
             // 27th of January, 2018  
 
             .goToHomePage()
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .itemCurrency('pdp', homePage, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToCategory('.WOMEN')
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .itemCurrency('pdp', category, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToCategory('.MEN')
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .itemCurrency('pdp', category, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .search()
             .itemCurrency('list', searchResults, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .itemCurrency('list', subCategory, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToSubCategory('category', '.WOMEN', '/women/jackets')
             .itemCurrency('list', subCategory, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToSubCategory('category', '.MEN', '/men/activity/road')
             .itemCurrency('list', subCategory, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToSubCategory('category', '.WOMEN', '/women/activity/road')
             .itemCurrency('list', subCategory, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .goToSubCategory('new', '.NEW')
             .itemCurrency('pdp', searchResults, expectSFR)
-            .assertNoCurrencyChange()
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
 
             .end();
 
@@ -209,7 +217,7 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(nonTransactedLogin.email, nonTransactedLogin.password)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             // 27th of January, 2018
 
@@ -223,7 +231,7 @@ module.exports = {
             .scrollToItem(subCategoryProduct)
             .addToCart(subCategoryProduct)
             .goToCartPage()
-            .assertCartPageCurrency(expectSFR)
+            .assertCartPageCurrency(expectSEK)
 
             .goToSubCategory('category', '.MEN', '/men/activity/road')
             .scrollToItem(subCategoryProduct)
@@ -231,7 +239,7 @@ module.exports = {
             .goToCartPage()
             .assertCartPageCurrency(expectSEK)
 
-            .goToSubCategory('category', '.MEN', '/men/activity/road')
+            .goToSubCategory('category', '.WOMEN', '/women/activity/road')
             .scrollToItem(subCategoryProduct)
             .addToCart(subCategoryProduct)
             .goToCartPage()
@@ -254,46 +262,46 @@ module.exports = {
             // 27th of January, 2018  
 
             .goToHomePage()
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .itemCurrency('pdp', homePage, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToCategory('.WOMEN')
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .itemCurrency('pdp', category, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToCategory('.MEN')
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .itemCurrency('pdp', category, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .search()
             .itemCurrency('list', searchResults, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToSubCategory('category', '.WOMEN', '/women/jackets')
             .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToSubCategory('category', '.MEN', '/men/activity/road')
             .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToSubCategory('category', '.WOMEN', '/women/activity/road')
             .itemCurrency('list', subCategory, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .goToSubCategory('new', '.NEW')
             .itemCurrency('pdp', searchResults, expectSEK)
-            .assertEN_SEK()
+            .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
 
             .end();
 

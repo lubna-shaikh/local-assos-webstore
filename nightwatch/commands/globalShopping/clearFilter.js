@@ -6,6 +6,10 @@ module.exports = {
                     this
                         .click('.facets-faceted-navigation-facets-clear')
                         .pause(5000)
+                    console.log('Clear filter clicked');
+                }
+                else {
+                    console.log('Clear filter not displayed')
                 }
             })
     }
