@@ -1,12 +1,13 @@
 const subCategoryPrice = '.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text';
 const expectSEK = 'SEK';
-const expectEN = 'EN';
+const expectEN = 'en';
 const expectSFR = 'SFr.';
+const expectCHF = 'CHF';
 const transactedLogin = require("../../commands/globalCheckout/transactedLogin.json");
 const nonTransactedLogin = require("../../commands/globalCheckout/nonTransactedLogin.json");
 
 module.exports = {
-    '@tags':'sweden',
+    '@tags': 'sweden',
     'it Should apply High to Low sort, and assert language and currency - Non-logged-in user': client => {
         client
             .url(client.launchUrl)
@@ -61,26 +62,26 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('guest', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .applySort('highToLow')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectSEK)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
 
-    'it Should apply High to Low sort, and assert language and currency - logged-in user (Transacted)': client => {
+    'it Should apply Low to High sort, and assert language and currency - logged-in user (Transacted)': client => {
         client
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('guest', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .applySort('lowToHigh')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectSEK)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -89,7 +90,7 @@ module.exports = {
             .url(client.launchUrl)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
-            .applyFilter(seasons)
+            .applyFilter('seasons')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
             .itemCurrency('list', subCategoryPrice, expectSEK)
             .end()
@@ -100,7 +101,7 @@ module.exports = {
             .url(client.launchUrl)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
-            .applyFilter(color)
+            .applyFilter('activity')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
             .itemCurrency('list', subCategoryPrice, expectSEK)
             .end()
@@ -111,7 +112,7 @@ module.exports = {
             .url(client.launchUrl)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
-            .applyFilter(activity)
+            .applyFilter('color')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
             .itemCurrency('list', subCategoryPrice, expectSEK)
             .end()
@@ -125,7 +126,7 @@ module.exports = {
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
-            .applyFilter(seasons)
+            .applyFilter('seasons')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .itemCurrency('list', subCategoryPrice, expectSEK)
             .end()
@@ -139,7 +140,7 @@ module.exports = {
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
-            .applyFilter(activity)
+            .applyFilter('activity')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .itemCurrency('list', subCategoryPrice, expectSEK)
             .end()
@@ -153,7 +154,7 @@ module.exports = {
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
-            .applyFilter(color)
+            .applyFilter('color')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .itemCurrency('list', subCategoryPrice, expectSEK)
             .end()
@@ -164,12 +165,12 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .applyFilter(seasons)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectedSFR)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .applyFilter('seasons')
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
 
@@ -178,12 +179,12 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .applyFilter(activity)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectedSFR)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .applyFilter('activity')
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
 
@@ -192,21 +193,21 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .applyFilter(color)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectedSFR)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .applyFilter('color')
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     'it Should clear Seasons filter, and assert language and currency - Non-logged-in user': client => {
         client
             .url(client.launchUrl)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
-            .applyFilter(seasons)
+            .applyFilter('seasons')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
             .clearFilter()
             .assertLangAndCurrency('guest', expectSEK, expectEN)
@@ -219,7 +220,7 @@ module.exports = {
             .url(client.launchUrl)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
-            .applyFilter(activity)
+            .applyFilter('activity')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
             .clearFilter()
             .assertLangAndCurrency('guest', expectSEK, expectEN)
@@ -232,7 +233,7 @@ module.exports = {
             .url(client.launchUrl)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
-            .applyFilter(seasons)
+            .applyFilter('color')
             .assertLangAndCurrency('guest', expectSEK, expectEN)
             .clearFilter()
             .assertLangAndCurrency('guest', expectSEK, expectEN)
@@ -248,7 +249,7 @@ module.exports = {
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
-            .applyFilter(seasons)
+            .applyFilter('seasons')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .clearFilter()
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
@@ -264,7 +265,7 @@ module.exports = {
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
-            .applyFilter(activity)
+            .applyFilter('activity')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .clearFilter()
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
@@ -280,7 +281,7 @@ module.exports = {
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
-            .applyFilter(color)
+            .applyFilter('color')
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
             .clearFilter()
             .assertLangAndCurrency('nonTransacted', expectSEK, expectEN)
@@ -293,14 +294,14 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .applyFilter(seasons)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .applyFilter('seasons')
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .clearFilter()
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectedSFR)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
 
@@ -309,14 +310,14 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .applyFilter(activity)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .applyFilter('activity')
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .clearFilter()
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectedSFR)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
 
@@ -325,14 +326,14 @@ module.exports = {
             .url(client.launchUrl)
             .loginAvatar()
             .login(transactedLogin.email, transactedLogin.password)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .goToSubCategory('category', '.MEN', '/men/jackets')
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .applyFilter(color)
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .applyFilter('color')
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
             .clearFilter()
-            .assertLangAndCurrency('transacted', expectedSFR, expectEN)
-            .itemCurrency('list', subCategoryPrice, expectedSFR)
+            .assertLangAndCurrency('transacted', expectCHF, expectEN)
+            .itemCurrency('list', subCategoryPrice, expectSFR)
             .end()
     },
 

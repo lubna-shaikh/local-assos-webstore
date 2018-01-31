@@ -1,27 +1,28 @@
 // var sekCurrency = "SEK";
 // var sekLanguage = "en";
-var userType;
+
+//var userType;
 
 module.exports = {
 
     command: function (userType, expectedCurrency, expectedLanguage) {
         return this
             .getLocationInView('.header-menu-settings-icon')
-            .click('.header-menu-settings-icon')
+            .click('.header-menu-settings-icon', function () {
+                if (userType === 'transacted') {
+                    console.log('Transacted User')
+                    this
+                        .assert.attributeEquals('#currencyselector', 'disabled', 'true')
 
-        if (usertype === 'transacted') {
-            this
-                .assert.attributeEquals('#currencyselector', 'disabled', 'true')
+                }
 
-        }
+                else if (userType === 'nonTransacted' || userType === 'guest') {
+                    console.log('Non-Transacted  or Guest User')
+                    this
+                        .assert.elementNotPresent('#currencyselector option:nth-child(2)')
 
-        else if (userType === 'nonTransacted' || userType === 'guest') {
-
-            this
-                .assert.elementNotPresent('#currencyselector option:nth-child(2)')
-
-        }
-        this
+                }
+            })
             .getValue('#currencyselector option', function (res) {
                 //   console.log("Transacted currency is ", res.value)
                 var currencyReturned = res.value;

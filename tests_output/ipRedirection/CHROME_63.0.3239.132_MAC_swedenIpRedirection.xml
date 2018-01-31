@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="15"
+            failures="1"
+            tests="3">
+
+  <testsuite name="ipRedirection.swedenIpRedirection"
+    errors="15" failures="1" hostname="" id="" package="ipRedirection" skipped="2"
+    tests="3" time="213.4" timestamp="Tue, 30 Jan 2018 14:51:27 GMT">
+  
+    <testcase name="it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Non-logged-in User" classname="ipRedirection.swedenIpRedirection" time="213.4" assertions="36">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.banner-section&gt; to be present for 10000 milliseconds.">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalHeaders/goToSubCategory.js:20:26)</failure>
+
+      <failure message="Testing if element &lt;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&gt; contains text: &quot;SEK&quot;. Element could not be located. after 5000 milliseconds.">    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalShopping/itemCurrency.js:11:25)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &quot;.ditch-mobile  a[href=&quot;/women/jackets&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalHeaders/goToSubCategory.js:19:26)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:361:20)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:135:13)
+    at HttpRequest.emit (events.js:216:7)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:110:20)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at Object.command (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalShopping/itemCurrency.js:9:18)
+    at Object.F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/queue.js:73:8)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+ERROR: Unable to locate element: &quot;.product-set .item-block-container:nth-child(2) .facets-item-cell-grid-price-text&quot; using: css selector
+    at F.command (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._reschedule (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:121:17)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/core/assertion.js:100:21)
+    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:125:13)
+    at HttpRequest.emit (events.js:213:7)
+    at HttpRequest.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/node_modules/nightwatch/lib/index.js:393:15)
+    at emitThree (events.js:135:13)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Logged-in User (Transacted)" classname="ipRedirection.swedenIpRedirection">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should Hit URL, and check for language+currency in the Settings dropdown (check this for Home, Search, Sub-category, Faceted Category, PDP) - Logged-in User (Non-transacted)" classname="ipRedirection.swedenIpRedirection">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

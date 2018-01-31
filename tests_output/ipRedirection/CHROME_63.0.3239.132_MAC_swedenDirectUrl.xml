@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="44">
+
+  <testsuite name="ipRedirection.swedenDirectUrl"
+    errors="0" failures="1" hostname="" id="" package="ipRedirection" skipped="43"
+    tests="44" time="21.46" timestamp="Tue, 30 Jan 2018 11:32:34 GMT">
+  
+    <testcase name="it Should hit direct URL for Home page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl" time="21.46" assertions="2">
+
+      <failure message="Failed [equal]: ('EUR' == 'SEK')">    at Object.&lt;anonymous&gt; (/Users/lubna/Documents/local-assos-webstore/nightwatch/commands/globalHeaders/assertLangAndCurrency.js:30:29)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="it Should hit direct URL for Men category page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women category page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men &gt; Jackets (Sub-category) page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women &gt; Jackets (Sub-category) page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women &gt; Road (Faceted-category) page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men &gt; Road (Faceted-category) page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Shorts Stories page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Club Gear form and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Become a Dealer form and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Contact Us form and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Forgot Password page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Size Guide page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Product Care page and assert language + no currency change (Non-logged-in users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Home page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men category page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women category page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men &gt; Jackets (Sub-category) page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women &gt; Jackets (Sub-category) page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women &gt; Road (Faceted-category) page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men &gt; Road (Faceted-category) page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Shorts Stories page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Club Gear form and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Become a Dealer form and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Contact Us form and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Login page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Forgot Password page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Size Guide page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Product Care page and assert language + no currency change (Logged-in, Non-transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Home page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men category page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women category page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men &gt; Jackets (Sub-category) page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women &gt; Jackets (Sub-category) page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Women &gt; Road (Faceted-category) page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Men &gt; Road (Faceted-category) page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Shorts Stories page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Club Gear form and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Become a Dealer form and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Contact Us form and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Login page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Forgot Password page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Size Guide page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="it Should hit direct URL for Product Care page and assert language + no currency change (Logged-in, Transacted users)" classname="ipRedirection.swedenDirectUrl">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
